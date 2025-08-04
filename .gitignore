@@ -1,0 +1,44 @@
+# Entornos virtuales
+venv/
+ven/
+env/
+.venv/
+virtualenv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de configuración sensibles
+config/config.yaml  # Ignora config.yaml para no exponer claves API
+*.env               # Ignora archivos de variables de entorno
+
+# Archivos de sistema y editores
+.DS_Store           # macOS
+Thumbs.db           # Windows
+*.swp               # Vim
+*.swo
+.vscode/            # Configuraciones de VS Code
+.idea/              # Configuraciones de PyCharm
+
+# Archivos de dependencias y builds
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs y archivos temporales
+*.log
+*.tmp
+temp/
+
+# Otros
+*.bak
+*.backup
+
+__pycache__/

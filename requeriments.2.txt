@@ -1,0 +1,1 @@
+recuerda instalar - m venv (entorno virtual_)
